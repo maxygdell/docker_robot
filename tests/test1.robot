@@ -36,6 +36,7 @@ Verify Blazorapp running
     Open Browser        browser=${BROWSER}      options=${BROWSER_OPTIONS}
     Go To   ${URL}
     Wait Until Page Contains    Hello, world!
+    Title Should Be    Index
 
 
 *** Keywords ***
